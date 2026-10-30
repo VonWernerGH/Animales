@@ -1,9 +1,9 @@
 CXX      = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra
 
-all: programa
+all: animales
 
-programa: main.o Animal.o
+animales: main.o Animal.o
 	$(CXX) $(CXXFLAGS) -o programa main.o Animal.o
 
 main.o: main.cpp Animal.h
@@ -13,4 +13,4 @@ Animal.o: Animal.cpp Animal.h
 	$(CXX) $(CXXFLAGS) -c Animal.cpp
 
 clean:
-	rm -f *.o programa
+	rm -f *.o animales
