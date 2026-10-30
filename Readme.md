@@ -92,4 +92,4 @@ Numero de patas:   4
 
 ## 📄 Licencia
 
-Este proyecto se distribuye bajo la licencia **MIT**.
+Este proyecto se distribuye bajo la licencia **GPL 3**.
