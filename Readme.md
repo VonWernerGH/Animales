@@ -88,7 +88,7 @@ Numero de patas:   4
 
 ## 👤 Autor
 
-- **Tu Nombre** — [@tuusuario](https://github.com/tuusuario)
+- **VonWernerGH** — [@VonWernerGH](https://github.com/VonWernerGH)
 
 ## 📄 Licencia
 
