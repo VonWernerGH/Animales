@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++17 -Wall -Wextra
 all: animales
 
 animales: main.o Animal.o
-	$(CXX) $(CXXFLAGS) -o programa main.o Animal.o
+	$(CXX) $(CXXFLAGS) -o animales main.o Animal.o
 
 main.o: main.cpp Animal.h
 	$(CXX) $(CXXFLAGS) -c main.cpp
